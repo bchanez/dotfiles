@@ -2,5 +2,6 @@
     "git.confirmSync": false,
     "git.autofetch": true,
     "workbench.sideBar.location": "right",
-    "workbench.colorTheme": "Night Owl"
+    "workbench.colorTheme": "Night Owl",
+    "workbench.iconTheme": "vscode-icons"
 }
