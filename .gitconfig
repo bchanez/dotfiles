@@ -1,0 +1,17 @@
+[user]
+    email = bastien.chanez@gmail.com
+    name = Bastien Chanez 
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = code --wait --diff $LOCAL $REMOTE
+[merge]
+	tool = vscode
+[mergetool "vscode"]
+	cmd = code --wait $MERGED
+[pull]
+	rebase = true
+[fetch]
+	prune = true
+[rebase]
+	autoStash = false
